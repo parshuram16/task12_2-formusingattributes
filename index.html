@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input[type="text"]{
+            width: 170px;
+            background-color: yellow;
+        }
+
+        input[type="email"]{
+            width: 170px;
+            background-color: rgb(102, 236, 102);
+        }
+
+        input[type="date"]{
+            width: 170px;
+            background-color: yellowgreen;
+        }
+
+        input[type="file"]{
+            
+            background-color: yellowgreen;
+        }
+
+        input[type="tel"]{
+            width: 170px;
+            background-color: rgb(237, 173, 223);
+        }
+
+        select[name="dgg"]{
+            width: 170px;
+            background-color: rgb(245, 216, 87);
+        }
+
+        select[name="engg"]{
+            width: 170px;
+            background-color: rgb(111, 205, 242);
+        }
+
+        textarea[name="adds"]{
+            width: 280px;
+            background-color: rgb(248, 83, 163);
+        }
+
+        input[type="submit"]{
+            width: 170px;
+            background-color: rgb(236, 28, 28);
+            padding: 10px;
+        }
+
+        .c {
+            text-align: center;
+            background-color: aqua;
+            padding: 10px;
+            border: 2px solid black;
+            
+        }
+
+        .head {
+            color: red;
+            text-decoration: underline;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <form class="c">
+
+        
+        
+
+        <h2 class="head">Personal Details</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="nm" placeholder="enter your name">
+        <br><br>
+
+
+        <label for="ps">Password:</label>
+        <input type="text" id="ps" name="pwd" placeholder="enter your password" >
+        <br><br>
+
+        <label for="mail">E-mail id:</label >
+        <input type="email" id="mail" name="ml" placeholder="enter your email">
+        <br><br>
+
+
+        <label for="dd">Date of Birth:</label>
+        <input type="date" id="dd" name="ddd">
+        <br><br>
+
+
+
+
+        <label for="m">Gender:</label>
+        <input type="radio" id="m" name="ml">Male
+        <input type="radio" id="m" name="ml">Female
+        
+        <br><br>
+
+
+        <label for="ph">Contact:</label>
+        <input type="tel" id="ph" name="mp" placeholder="enter your ph.number">
+        <br><br>
+
+        <h2 class="head">Educational Qualification</h2>
+
+        <br>
+
+        <label for="dg">Degree:</label>
+
+        <select id="dg" name="dgg">
+            <option>Select Group</option>
+            <option>bsc</option>
+            <option>mpcs</option>
+            <option>b.com</option>
+
+        </select>
+        <br><br>
+
+
+        <label for="eng">Engineering:</label>
+
+        <select id="eng" name="engg">
+            <option>Select Group</option>
+            <option>mech</option>
+            <option>eee</option>
+            <option>ece</option>
+
+        </select>
+        <br><br>
+
+        <label for="ch">Hobbies:</label>
+        <input type="checkbox" id="ch" name="chh">Playing Chess
+        <input type="checkbox" id="ch" name="chh">Reading Books
+        
+        <br><br>
+
+        <label for="adre">Address:</label>
+        <br>
+        <textarea rows="4" cols="50" id="adre" name="adds">
+
+        </textarea>
+        <br><br>
+
+        <label for="fl">Attach Resume:</label>
+        <input type="file" id="fl" name="fll">
+        <br><br>
+
+
+
+
+
+
+
+
+
+
+
+        <br><br>
+        <input type="submit">
+    
+        
+
+    </form>
+    
+    
+</body>
+</html>
